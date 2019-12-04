@@ -1,0 +1,58 @@
+html{
+    height:100vh;
+}
+body{
+    height:100vh;
+}
+.header{
+    color: white;
+    background-color:  #222222;
+    text-align: center;
+}
+
+.searchbar{
+    background-color: lightgrey;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.city{
+    display:flex;
+    align-items: center;
+    margin-top:15px;
+    margin-left: 15px;
+    border-radius: 15px 0px 0px 15px;
+    height: 50vh;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+    min-height: 263px;
+}
+#search-input{
+    border-radius: 5px;
+    width: 100%;
+}
+#city-form{
+    display:flex;
+}
+#icon{
+    transform: rotate(-45deg);
+}
+.forecast{
+    margin-left: 10px;
+}
+#displaycards{
+    display:flex;
+}
+li{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 2px;
+    border-radius: 5px;
+}
+p{
+    font-size: 20px;
+}
